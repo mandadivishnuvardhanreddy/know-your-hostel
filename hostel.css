@@ -1,0 +1,140 @@
+
+.header
+{
+    display:flex;
+    flex-direction: row; 
+    background-color: palegreen; 
+}
+ul
+{
+width: 30vw;
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: flex-end;
+justify-content: space-around;
+margin-left:100%;
+}
+.head-container {
+	margin-top: 100px;
+	display: flex;
+	align-items: center;
+    justify-items: center;
+
+}
+.head{
+	
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+    justify-items: center;
+}
+.q
+{   font-family: "Audiowide", sans-serif;
+    color:#1aff1a;
+}
+.quote h3 {
+    width: 50%;
+	color: #0009;
+}
+.container 
+{
+   width:50%;
+}
+.svg-image img{
+	
+    width: 50%;
+   margin-right: 10%;
+	filter: drop-shadow(0 20px 10px rgba(0,0,0,0.2));
+}
+#title
+{
+    font-family: "Sofia", sans-serif;
+}
+.services
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 5%;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(176,229,208,1) 42%, rgba(92,202,238,0.41) 93.6% );
+
+}
+.service
+{    filter: drop-shadow(0 20px 10px rgba(0,0,0,0.2));
+   
+
+     position: relative;
+    padding:20px;
+    margin-top: 5%;
+    height: 200px;
+    width:200px;
+    background-color: #f1f1f1;
+    border: 6px;
+    border-radius: 40px 40px 40px 40px;
+    border-color: palevioletred;
+}
+
+.flex-img
+{
+    height:100px;
+    width:100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+.service :hover {
+    transform: scale(2.1);
+  }
+#serviceheader
+{
+    filter: drop-shadow(0 20px 10px rgba(0,0,0,0.2));
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    background-color: #e98513;
+    margin-top: 20px;
+
+}
+footer{
+    background-color: grey;
+    color: white;
+    text-align: center;
+    width: 100%;
+    padding: 0px 0px 10px 0px; 
+
+}
+
+.foote
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.sociaimg
+{
+    padding: 10px;
+    height: 30px;
+    width: 30px;
+   
+}
+
+.sociaimg:hover
+{
+    transition: 0.4s;
+    transform: translateY(-5px);
+}
+ #pro
+{
+    
+    height: 50px;
+    width: 50px;
+    
+    margin-left: auto;
+}
